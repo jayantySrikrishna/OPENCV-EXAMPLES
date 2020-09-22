@@ -75,7 +75,7 @@ void distortImage(cv::Mat& input, cv::Mat& dst, cv::Mat& undistorted)
 	double fx = 1738.06409;
 	double fy = 1736.96128;
 	// Distortion coefficients
-	double k1 = 0.2;
+	double k1 = 1.9;
 	double k2 = 0;
 	double k3 = 0;
 	double p1 = 0;
